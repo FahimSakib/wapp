@@ -39,6 +39,9 @@ Route::group([], function(){
     Route::get('events', function () {
         return view('frontend.pages.events');
     })->name('events');
+    Route::get('teachers', function () {
+        return view('frontend.pages.teachers');
+    })->name('teachers');
 });
 
 // 'middleware' => 'auth'
