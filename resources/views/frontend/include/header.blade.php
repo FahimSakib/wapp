@@ -6,9 +6,11 @@
                 <div class="col-lg-6">
                     <div class="header-contact text-lg-left text-center">
                         <ul>
-                            <li><img src="asset/frontend/images/all-icon/map.png" alt="icon"><span>127/5 Mark street, New
+                            <li><img src="asset/frontend/images/all-icon/map.png" alt="icon"><span>127/5 Mark street,
+                                    New
                                     york</span></li>
-                            <li><img src="asset/frontend/images/all-icon/email.png" alt="icon"><span>info@yourmail.com</span></li>
+                            <li><img src="asset/frontend/images/all-icon/email.png"
+                                    alt="icon"><span>info@yourmail.com</span></li>
                         </ul>
                     </div>
                 </div>
@@ -67,28 +69,36 @@
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
-                                    <a class="{{ (request()->is('/')) ? 'active' : '' }}" href="{{ route('index') }}">Home</a>
+                                    <a class="{{ (request()->is('/')) ? 'active' : '' }}"
+                                        href="{{ route('index') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="{{ (request()->is('about')) ? 'active' : '' }}" href="{{ route('about') }}">About us</a>
+                                    <a class="{{ (request()->is('about')) ? 'active' : '' }}"
+                                        href="{{ route('about') }}">About us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="{{ (request()->is('courses')) ? 'active' : '' }}" href="{{ route('courses') }}">Courses</a>
+                                    <a class="{{ (request()->is('courses')) ? 'active' : '' }}"
+                                        href="{{ route('courses') }}">Courses</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="{{ (request()->is('events')) ? 'active' : '' }}" href="{{ route('events') }}">Events</a>
+                                    <a class="{{ (request()->is('events')) ? 'active' : '' }}"
+                                        href="{{ route('events') }}">Events</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="{{ (request()->is('teachers')) ? 'active' : '' }}" href="{{ route('teachers') }}">Our Teachers</a>
+                                    <a class="{{ (request()->is('teachers')) ? 'active' : '' }}"
+                                        href="{{ route('teachers') }}">Our Teachers</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="{{ (request()->is('blog')) ? 'active' : '' }}" href="{{ route('blog') }}">Blog</a>
+                                    <a class="{{ (request()->is('blog')) ? 'active' : '' }}"
+                                        href="{{ route('blog') }}">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="{{ (request()->is('shop')) ? 'active' : '' }}" href="{{ route('shop') }}">Shop</a>
+                                    <a class="{{ (request()->is('shop')) ? 'active' : '' }}"
+                                        href="{{ route('shop') }}">Shop</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="{{ (request()->is('contact')) ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
+                                    <a class="{{ (request()->is('contact')) ? 'active' : '' }}"
+                                        href="{{ route('contact') }}">Contact</a>
                                 </li>
                             </ul>
                         </div>
