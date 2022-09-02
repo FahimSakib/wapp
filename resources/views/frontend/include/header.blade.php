@@ -16,7 +16,10 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="header-opening-time text-lg-right text-center">
-                        <p>Opening Hours : Monday to Saturay - 8 Am to 5 Pm</p>
+                        <p>{{ auth()->user()->name }} | <a href="{{ route('profile.show') }}">Profile</a> | <a href="javascript:document.logout_form.submit()"> Logout</a></p>
+                        <form name="logout_form" action="{{ route('logout') }}" method="post">
+                            @csrf
+                        </form>
                     </div>
                 </div>
             </div> <!-- row -->
