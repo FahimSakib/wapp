@@ -28,6 +28,8 @@ Route::middleware([
     })->name('dashboard');
 });
 
-route::group([], function(){
+Route::group([], function(){
     route::get('/',[IndexController::class, 'index'])->name('index');
 });
+
+// 'middleware' => 'auth'
