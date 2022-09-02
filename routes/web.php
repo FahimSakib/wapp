@@ -28,7 +28,7 @@ Route::middleware([
     })->name('dashboard');
 });
 
-Route::group([], function(){
+Route::group(['middleware' => 'auth'], function(){
     route::get('/',[IndexController::class, 'index'])->name('index');
     Route::get('about', function () {
         return view('frontend.pages.about');
@@ -52,5 +52,3 @@ Route::group([], function(){
         return view('frontend.pages.contact');
     })->name('contact');
 });
-
-// 'middleware' => 'auth'
