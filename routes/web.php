@@ -42,6 +42,9 @@ Route::group([], function(){
     Route::get('teachers', function () {
         return view('frontend.pages.teachers');
     })->name('teachers');
+    Route::get('blog', function () {
+        return view('frontend.pages.blog');
+    })->name('blog');
 });
 
 // 'middleware' => 'auth'
