@@ -36,6 +36,9 @@ Route::group([], function(){
     Route::get('courses', function () {
         return view('frontend.pages.courses');
     })->name('courses');
+    Route::get('events', function () {
+        return view('frontend.pages.events');
+    })->name('events');
 });
 
 // 'middleware' => 'auth'
