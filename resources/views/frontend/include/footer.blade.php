@@ -23,18 +23,18 @@
                             <h6>Sitemap</h6>
                         </div>
                         <ul>
-                            <li><a href="index-2.html"><i class="fa fa-angle-right"></i>Home</a></li>
-                            <li><a href="about.html"><i class="fa fa-angle-right"></i>About us</a></li>
-                            <li><a href="courses.html"><i class="fa fa-angle-right"></i>Courses</a></li>
-                            <li><a href="blog.html"><i class="fa fa-angle-right"></i>News</a></li>
-                            <li><a href="events.html"><i class="fa fa-angle-right"></i>Event</a></li>
+                            <li><a href="{{ route('index') }}"><i class="fa fa-angle-right"></i>Home</a></li>
+                            <li><a href="{{ route('about') }}"><i class="fa fa-angle-right"></i>About us</a></li>
+                            <li><a href="{{ route('courses') }}"><i class="fa fa-angle-right"></i>Courses</a></li>
+                            <li><a href="{{ route('blog') }}"><i class="fa fa-angle-right"></i>News</a></li>
+                            <li><a href="{{ route('events') }}"><i class="fa fa-angle-right"></i>Event</a></li>
                         </ul>
                         <ul>
                             <li><a href="#"><i class="fa fa-angle-right"></i>Gallery</a></li>
-                            <li><a href="shop.html"><i class="fa fa-angle-right"></i>Shop</a></li>
-                            <li><a href="teachers.html"><i class="fa fa-angle-right"></i>Teachers</a></li>
+                            <li><a href="{{ route('shop') }}"><i class="fa fa-angle-right"></i>Shop</a></li>
+                            <li><a href="{{ route('teachers') }}"><i class="fa fa-angle-right"></i>Teachers</a></li>
                             <li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
-                            <li><a href="contact.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+                            <li><a href="{{ route('contact') }}"><i class="fa fa-angle-right"></i>Contact</a></li>
                         </ul>
                     </div> <!-- footer link -->
                 </div>
