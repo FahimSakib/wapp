@@ -30,6 +30,9 @@ Route::middleware([
 
 Route::group([], function(){
     route::get('/',[IndexController::class, 'index'])->name('index');
+    Route::get('about', function () {
+        return view('frontend.pages.about');
+    });
 });
 
 // 'middleware' => 'auth'
