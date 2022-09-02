@@ -45,6 +45,9 @@ Route::group([], function(){
     Route::get('blog', function () {
         return view('frontend.pages.blog');
     })->name('blog');
+    Route::get('shop', function () {
+        return view('frontend.pages.shop');
+    })->name('shop');
 });
 
 // 'middleware' => 'auth'
