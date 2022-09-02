@@ -32,7 +32,10 @@ Route::group([], function(){
     route::get('/',[IndexController::class, 'index'])->name('index');
     Route::get('about', function () {
         return view('frontend.pages.about');
-    });
+    })->name('about');
+    Route::get('courses', function () {
+        return view('frontend.pages.courses');
+    })->name('courses');
 });
 
 // 'middleware' => 'auth'
