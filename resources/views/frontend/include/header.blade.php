@@ -104,14 +104,14 @@
                         </div>
                     </nav> <!-- nav -->
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-3 col-4">
+                {{-- <div class="col-lg-2 col-md-2 col-sm-3 col-4">
                     <div class="right-icon text-right">
                         <ul>
                             <li><a href="#" id="search"><i class="fa fa-search"></i></a></li>
                             <li><a href="#"><i class="fa fa-shopping-bag"></i><span>0</span></a></li>
                         </ul>
                     </div> <!-- right icon -->
-                </div>
+                </div> --}}
             </div> <!-- row -->
         </div> <!-- container -->
     </div>
